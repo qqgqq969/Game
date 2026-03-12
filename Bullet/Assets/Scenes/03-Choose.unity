@@ -589,7 +589,7 @@ MonoBehaviour:
   selectedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   btnBack: {fileID: 419623748}
   btnStartGame: {fileID: 960084026}
-  gameSceneIndex: 2
+  gameSceneIndex: 10
   menuSceneIndex: 0
 --- !u!1 &565716821
 GameObject:
