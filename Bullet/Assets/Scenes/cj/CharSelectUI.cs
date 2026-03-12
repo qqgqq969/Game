@@ -25,7 +25,7 @@ public class CharSelectUI : MonoBehaviour
     // 新增：场景跳转按钮变量
     public Button btnBack;       // 返回上一场景按钮
     public Button btnStartGame;  // 开始游戏按钮
-    public int gameSceneIndex = 2; // 游戏界面场景的BuildIndex（可自行修改）
+    public int gameSceneIndex = 10; // 游戏界面场景的BuildIndex（可自行修改）
     public int menuSceneIndex = 0; // 主菜单场景的BuildIndex（可自行修改）
 
     void Start()
