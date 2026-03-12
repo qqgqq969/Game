@@ -6,25 +6,25 @@ using UnityEngine.UI;
 
 public class Aatar : MonoBehaviour
 {
-    public Button Avatar;
-    public GameObject Profile;
+    public Button Button;
+    public GameObject Panel;
 
     void Start()
     {
         // 初始化：弹窗默认隐藏（Profile初始状态为关闭）
-        if (Profile != null)
+        if (Panel != null)
         {
-            Profile.SetActive(false);
+            Panel.SetActive(false);
         }
 
         // 绑定点击事件：点击Avatar按钮，只显示Profile弹窗（无法关闭）
-        if (Avatar != null)
+        if (Button != null)
         {
-            Avatar.onClick.AddListener(ShowProfileOnly);
+            Button.onClick.AddListener(ShowProfileOnly);
         }
         else
         {
-            Debug.LogError("请绑定你命名为Avatar的按钮！");
+            Debug.LogError("请绑定按钮！");
         }
     }
 
@@ -33,18 +33,18 @@ public class Aatar : MonoBehaviour
     /// </summary>
     void ShowProfileOnly()
     {
-        if (Profile != null)
+        if (Panel != null)
         {
             // 强制设置为显示状态（不管当前是显示还是隐藏，点击后都只显示）
-            Profile.SetActive(true);
+            Panel.SetActive(true);
         }
         else
         {
-            Debug.LogError("请绑定你命名为Profile的面板！");
+            Debug.LogError("请绑定面板！");
         }
     }
 
-    // Update is called once per frame
+
     void Update()
     {
 
