@@ -4,5 +4,44 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/01-MainMenu.unity
+    guid: 3f107c560f137544287db266a74db8ae
+  - enabled: 1
+    path: Assets/Scenes/02-Loading.unity
+    guid: e0d3f9b36958816418e8fb35a9a0b076
+  - enabled: 1
+    path: Assets/Scenes/03-Choose.unity
+    guid: 9ba9396ced67db14298a84ed8185d3a8
+  - enabled: 1
+    path: Assets/Scenes/04-Level-1.unity
+    guid: c6e2193ab29751e498c878aeb1e10bff
+  - enabled: 1
+    path: Assets/Scenes/05-Level-2.unity
+    guid: a25876da02b982042801f7f82128d255
+  - enabled: 1
+    path: Assets/Scenes/06-Level-3.unity
+    guid: 11eece2969dfd974b922b33f1447e89d
+  - enabled: 1
+    path: Assets/Scenes/07-Level-4.unity
+    guid: 4456cc574a3773e4d800c9f157ab447c
+  - enabled: 1
+    path: Assets/Scenes/08-Level-5.unity
+    guid: 8133c53a3101ce241bfc59a20e83f1ba
+  - enabled: 1
+    path: Assets/Scenes/09-Level-6.unity
+    guid: c8317d89e67bdd74e92b1a22b75975d7
+  - enabled: 1
+    path: Assets/Scenes/10-Shop.unity
+    guid: 004fcc9a12c34d24795099aeef618a5c
+  - enabled: 1
+    path: Assets/Scenes/11-Homepage.unity
+    guid: d1a2937b2ac8a24479f69abcc1f12fe5
+  - enabled: 1
+    path: Assets/Scenes/12-Transition.unity
+    guid: 443f0d099130e5544a080c6b3319722c
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
